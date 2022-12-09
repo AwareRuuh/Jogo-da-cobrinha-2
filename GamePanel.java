@@ -5,9 +5,9 @@ import java.util.Random;
 
 public class GamePanel extends JPanel implements ActionListener {
 
-  static final int LARGURA_TELA = 1000;
+  static final int LARGURA_TELA = 700;
   static final int ALTURA_TELA = 720;
-  static final int TAMANHO_UNIDADE = 50;
+  static final int TAMANHO_UNIDADE = 45;
   static final int GAME_UNITS = (LARGURA_TELA * ALTURA_TELA) / TAMANHO_UNIDADE;
   static final int DELAY = 200;//175
   final int x[] = new int[GAME_UNITS];
